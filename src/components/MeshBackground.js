@@ -16,7 +16,7 @@ export default function MeshBackground() {
         fullScreen: { enable: true, zIndex: -1 },
         background: { color: 'transparent' },
         particles: {
-          number: { value: 60, density: { enable: true, area: 1200 } },
+          number: { value: 90, density: { enable: true, area: 1200 } },
           color: { value: '#ff6600' },
           shape: { type: 'circle' },
           opacity: { value: 0.6, random: false },
@@ -25,12 +25,12 @@ export default function MeshBackground() {
             enable: true,
             distance: 150,
             color: '#ff6600',
-            opacity: 0.5,
+            opacity: 0.6,
             width: 1
           },
           move: {
             enable: true,
-            speed: 0.6,
+            speed: 1.5,
             direction: 'none',
             random: true,
             straight: false,
